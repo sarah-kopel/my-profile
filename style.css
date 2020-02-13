@@ -1,0 +1,93 @@
+/* Colors and fonts */
+body {
+background-color: rgba(123, 0, 0, 0.46);
+color: #983333;
+font-family: 'PT Sans', sans-serif;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+}
+h1,h2,h3 {
+font-family: 'Merriweather', serif;
+
+}
+h1 {
+color: #983333;
+font-size: 40px;
+font-weight: 45;
+letter-spacing: 15px;
+font-weight: lighter;
+text-transform: uppercase;
+
+}
+
+h2 {
+color: #983333;
+font-size: 25px;
+font-weight:lighter;
+letter-spacing: 15px;
+}
+
+a {
+font-family: 'Merriweather', serif;
+text-decoration: none;
+color: #a78181;
+font-weight: bold;
+font-size: 16px;
+
+}
+a:hover {
+color: #bf8484;
+}
+
+/*Custom design with class */
+
+.container {
+width: 700px;
+margin: 40px auto;
+
+}
+.card-white {
+background-color: #ffdddd6e;
+padding: 20px;
+box-shadow: 0px 10px 20px (0,0,0,0.1);
+border-radius: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 20px 0px;
+text-align: center;
+}
+.img-circle{
+border-radius: 50%;
+
+}
+.btn-blue {
+background-color: #791a1ae0;
+color: white;
+padding: 10px 15px;
+border-radius: 4px;
+
+}
+.btn-blue:hover {
+background-color: #a73a3ae0;
+color: black;
+}
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li {
+display: inline;
+padding: 15px;
+}
+.list-inline i {
+font-size: 45px;
+}
+.list-inline i:hover {
+font-size: 45px;
+color: black;
+}
+
+#introduction p {
+margin-bottom: 30px;
+}
